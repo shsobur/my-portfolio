@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.nav-bar {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid rgb(164, 37, 227);
+}
+
+.logo {
+  padding-left: 30px;
+  font-size: 1.8vw;
+}
+.logo h2{
+  color: rgb(164, 37, 227);
+}
+.nav-contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+.nav-contain li{
+  list-style: none;
+}
+.nav-contain a{
+  padding: 15px 10px;
+  color: black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.nav-contain a:hover{
+  color: wheat;
+  background-color: rgb(65, 0, 156);
+  transition: 0.5s;
+  font-weight: 600;
+}
+.nav-button {
+  margin-right: 30px;
+}
+.nav-button button{
+  padding: 6px 20px;
+  font-size: 1.2vw;
+  color: black;
+  border-color: rgb(164, 37, 227);
+  border-radius: 15px;
+}
+.nav-button button:hover{
+  background: rgb(2,0,36);
+  border-color: black;
+  font-weight: 600;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(25, 51, 253) 0%, rgba(164, 37, 227) 100%, rgb(164, 37, 227) 100%);
+  color: rgb(255, 255, 255);
+  transition: 0.7s;
+}
+
+
+/* First-page contain style */
+
+
+#first-contain {
+  height: calc(100vh - 60px);
+  width: 100%;
+  display: flex;
+}
+
+.left-side {
+  height: 100%;
+  width: 50%;
+}
+.left-side h1{
+  font-size: 3.5vw;
+  padding-left: 30px;
+  padding-top: 100px;
+  display: block;
+}
+.left-side h3{
+  font-size: 2.6vw;
+  padding-left: 30px;
+  padding: 25px 0 25px 30px;
+}
+.left-side span{
+  color: rgb(164, 37, 227);
+}
+.left-side p{
+  background-color: rgba(0, 0, 0, 0.075);
+  margin-left: 30px;
+}
+
+
+
+.right-side {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-side img{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 5px solid rgb(164, 37, 227);
+  box-sizing: 5px black;
+}
+
+#second-contain {
+  height: 70vh;
+  width: 100%;
+  background-color: brown;
+}
+.s-main {
+  display: flex;
+  padding-top: 80px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.box-1 {
+  height: 250px;
+  width: 220px;
+  background-color: aqua;
+}
+.box-2{
+  height: 250px;
+  width: 220px;
+  background-color: rgb(85, 125, 6);
+}
+.box-3{
+  height: 250px;
+  width: 220px;
+  background-color: rgb(51, 7, 211);
+}
