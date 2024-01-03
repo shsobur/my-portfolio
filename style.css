@@ -12,10 +12,13 @@
   height: 60px;
   width: 100%;
   display: flex;
+  position: fixed;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1.5px solid rgb(139, 48, 127);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(25, 51, 253) 0%, rgba(139, 48, 127) 100%, rgb(164, 37, 227) 100%);
+  color: rgb(255, 255, 255);
 }
 
 .logo {
@@ -23,7 +26,7 @@
   font-size: 1.8vw;
 }
 .logo h2{
-  color: rgb(139, 48, 127);
+  font-size: 3vw;
 }
 
 /* Nave-bar contain st hear --> */
@@ -45,7 +48,7 @@
 }
 .nav-contain a:hover{
   color: wheat;
-  background-color: rgb(65, 0, 156);
+  background-color: rgb(35, 34, 43);
   transition: 0.5s;
   font-weight: 600;
 }
@@ -93,6 +96,7 @@
 .left-side {
   height: 100%;
   width: 50%;
+  margin-top: 60px;
 }
 .left-side h1{
   font-size: 3.5vw;
@@ -135,16 +139,29 @@
 .right-side {
   height: 100%;
   width: 50%;
+  margin-top: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.right-side img{
+
+.back-img {
   height: 400px;
   width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(139, 48, 127);
   border-radius: 50%;
-  border: 5px solid rgb(139, 48, 127);
-  box-sizing: 5px black;
+}
+.right-side img{
+  height: 370px;
+  width: 310px;
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* "Right side" end hear <-- */
@@ -156,6 +173,7 @@
 #second-contain {
   height: 70vh;
   width: 100%;
+  margin-top: 60px;
   background-color: rgb(236, 236, 236);
 }
 #second-contain h2{
