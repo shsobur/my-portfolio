@@ -5,6 +5,9 @@
   font-family: sans-serif;
 }
 
+/* Nave-bar styleing st hear -->*/
+
+
 .nav-bar {
   height: 60px;
   width: 100%;
@@ -22,6 +25,9 @@
 .logo h2{
   color: rgb(164, 37, 227);
 }
+
+/* Nave-bar contain st hear --> */
+
 .nav-contain {
   display: flex;
   align-items: center;
@@ -43,6 +49,11 @@
   transition: 0.5s;
   font-weight: 600;
 }
+
+/* Nave-bar contain end hear <-- */
+
+/* Nave-bar Button st hear --> */
+
 .nav-button {
   margin-right: 30px;
 }
@@ -62,15 +73,21 @@
   transition: 0.7s;
 }
 
+/* Nave-bar Button end hear <-- */
 
-/* First-page contain style */
+/* Nave-bar styleing end hear <-- */
 
+
+
+/* First-page contain style st hear -->*/
 
 #first-contain {
   height: calc(100vh - 60px);
   width: 100%;
   display: flex;
 }
+
+/* "left side" st hear --> */
 
 .left-side {
   height: 100%;
@@ -108,6 +125,13 @@
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(25, 51, 253) 0%, rgba(164, 37, 227) 100%, rgb(164, 37, 227) 100%);
   transition: 0.7s;
 }
+
+/* "left side" end hear <-- */
+
+
+
+/* "Right side" st hear --> */
+
 .right-side {
   height: 100%;
   width: 50%;
@@ -123,6 +147,12 @@
   box-sizing: 5px black;
 }
 
+/* "Right side" end hear <-- */
+
+
+
+/* Second-page contain st hear --> */
+
 #second-contain {
   height: 70vh;
   width: 100%;
@@ -135,6 +165,7 @@
 #second-contain span{
   color: rgb(164, 37, 227);
 }
+
 .s-main {
   display: flex;
   padding-top: 80px;
@@ -145,9 +176,13 @@
 .s-main span{
   color: rgb(164, 37, 227);
 }
+
+/* Box-1 st hear --> */
+
 .box-1 {
   height: 230px;
   width: 300px;
+  box-shadow: 5px 5px 5px rgba(164, 37, 227, 0.800);
   border-radius: 10px;
   background-color: white;
 }
@@ -160,9 +195,16 @@
 .box-1 p{
   padding-left: 6px;
 }
+
+/* Box-1 end hear <-- */
+
+
+/* Box-2 st hear --> */
+
 .box-2{
   height: 230px;
   width: 300px;
+  box-shadow: 5px 5px 5px rgb(164, 37, 227, 0.800);
   border-radius: 10px;
   background-color: white;
 }
@@ -175,9 +217,16 @@
 .box-2 p{
   padding-left: 6px;
 }
+
+/* Box-1 end hear <-- */
+
+
+/* Box-3 st hear --> */
+
 .box-3{
   height: 230px;
   width: 300px;
+  box-shadow: 5px 5px 5px rgb(164, 37, 227, 0.800);
   border-radius: 10px;
   background-color: white;
 }
@@ -190,3 +239,7 @@
 .box-3 p{
   padding-left: 6px;
 }
+
+/* Box-3 end hear <-- */
+
+/* Second-page contain end hear <-- */
