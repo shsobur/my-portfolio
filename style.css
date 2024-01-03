@@ -91,7 +91,7 @@
   color: rgb(164, 37, 227);
 }
 .left-side p{
-  background-color: rgba(0, 0, 0, 0.075);
+  background-color: rgb(240, 240, 240);
   margin-left: 30px;
 }
 
@@ -115,7 +115,14 @@
 #second-contain {
   height: 70vh;
   width: 100%;
-  background-color: brown;
+  background-color: rgb(230, 230, 230);
+}
+#second-contain h2{
+  font-size: 3.5vw;
+  text-align: center;
+}
+#second-contain span{
+  color: rgb(164, 37, 227);
 }
 .s-main {
   display: flex;
