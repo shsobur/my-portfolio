@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1.5px solid rgb(164, 37, 227);
+  border-bottom: 1.5px solid rgb(139, 48, 127);
 }
 
 .logo {
@@ -23,7 +23,7 @@
   font-size: 1.8vw;
 }
 .logo h2{
-  color: rgb(164, 37, 227);
+  color: rgb(139, 48, 127);
 }
 
 /* Nave-bar contain st hear --> */
@@ -61,14 +61,14 @@
   padding: 6px 20px;
   font-size: 1.2vw;
   color: black;
-  border-color: rgb(164, 37, 227);
+  border-color: rgb(139, 48, 127);
   border-radius: 15px;
 }
 .nav-button button:hover{
   background: rgb(2,0,36);
   border-color: black;
   font-weight: 600;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(25, 51, 253) 0%, rgba(164, 37, 227) 100%, rgb(164, 37, 227) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(25, 51, 253) 0%, rgba(139, 48, 127) 100%, rgb(164, 37, 227) 100%);
   color: rgb(255, 255, 255);
   transition: 0.7s;
 }
@@ -85,6 +85,7 @@
   height: calc(100vh - 60px);
   width: 100%;
   display: flex;
+  background-color: rgb(255, 253, 253);
 }
 
 /* "left side" st hear --> */
@@ -105,10 +106,9 @@
   padding: 25px 0 25px 30px;
 }
 .left-side span{
-  color: rgb(164, 37, 227);
+  color: rgb(139, 48, 127);
 }
 .left-side p{
-  background-color: rgb(240, 240, 240);
   margin-left: 30px;
 }
 .left-side button{
@@ -118,11 +118,11 @@
   border-radius: 25px;
   margin-top: 20px;
   margin-left: 30px;
-  border-color: rgb(164, 37, 227);
+  border-color: rgb(139, 48, 127);
 }
 .left-side button:hover{
   color: white;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(25, 51, 253) 0%, rgba(164, 37, 227) 100%, rgb(164, 37, 227) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(25, 51, 253) 0%, rgba(139, 48, 127) 100%, rgb(164, 37, 227) 100%);
   transition: 0.7s;
 }
 
@@ -143,7 +143,7 @@
   height: 400px;
   width: 400px;
   border-radius: 50%;
-  border: 5px solid rgb(164, 37, 227);
+  border: 5px solid rgb(139, 48, 127);
   box-sizing: 5px black;
 }
 
@@ -156,14 +156,14 @@
 #second-contain {
   height: 70vh;
   width: 100%;
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(236, 236, 236);
 }
 #second-contain h2{
   font-size: 3.5vw;
   text-align: center;
 }
 #second-contain span{
-  color: rgb(164, 37, 227);
+  color: rgb(139, 48, 127);
 }
 
 .s-main {
@@ -174,7 +174,7 @@
   justify-content: space-around;
 }
 .s-main span{
-  color: rgb(164, 37, 227);
+  color: rgb(139, 48, 127);
 }
 
 /* Box-1 st hear --> */
@@ -182,7 +182,7 @@
 .box-1 {
   height: 230px;
   width: 300px;
-  box-shadow: 5px 5px 5px rgba(164, 37, 227, 0.800);
+  box-shadow: 5px 5px 5px rgba(139, 48, 127, 0.800);
   border-radius: 10px;
   background-color: white;
 }
@@ -204,7 +204,7 @@
 .box-2{
   height: 230px;
   width: 300px;
-  box-shadow: 5px 5px 5px rgb(164, 37, 227, 0.800);
+  box-shadow: 5px 5px 5px rgb(139, 48, 127, 0.800);
   border-radius: 10px;
   background-color: white;
 }
@@ -226,7 +226,7 @@
 .box-3{
   height: 230px;
   width: 300px;
-  box-shadow: 5px 5px 5px rgb(164, 37, 227, 0.800);
+  box-shadow: 5px 5px 5px rgb(139, 48, 127, 0.800);
   border-radius: 10px;
   background-color: white;
 }
